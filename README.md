@@ -18,11 +18,11 @@ https://github.com/nekoTheShadow/jcal/releases
 
 引数なしで実行すると、実行した月のカレンダーが表示されます。
 
-![screenshot1.PNG]](https://raw.githubusercontent.com/nekoTheShadow/jcal/master/screenshot1.png)
+![screenshot1.PNG](https://raw.githubusercontent.com/nekoTheShadow/jcal/master/scrennshot1.PNG)
 
 引数として年と月を指定すると、指定した月のカレンダーが表示されます。
 
-![screenshot2.PNG]](https://raw.githubusercontent.com/nekoTheShadow/jcal/master/screenshot2.png)
+![screenshot2.PNG](https://raw.githubusercontent.com/nekoTheShadow/jcal/master/screenshot2.PNG)
 
 # 特徴と制約
 
