@@ -3,7 +3,6 @@ package main
 import (
 	"bufio"
 	"errors"
-	"math"
 	"strings"
 	"time"
 
@@ -42,8 +41,8 @@ func NewHolidayList() (*HolidayList, error) {
 	scanner.Text() // 1行目はヘッダなので読み飛ばしてしまう
 
 	holidays := []*Holiday{}
-	maxYear := math.MinInt64
-	minYear := math.MaxInt64
+	maxYear := 0
+	minYear := 9999
 	for scanner.Scan() {
 		cells := strings.Split(scanner.Text(), ",")
 		date, err := time.Parse("2006/1/2", cells[0])
